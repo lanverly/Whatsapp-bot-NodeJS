@@ -3,9 +3,9 @@ const { db } = require("../models/banco");
 function execute(user, msg) {
     db[user].stage = 0;
     return [
-        "Obrigado pela preferencia.",
+        "Obrigado pela preferência.",
         "Aguarde, seu pedido chegará em breve",
-        "Mais informações ligue para 33333-3311",
+        "Mais informações ligue para (82) 00000-0000",
     ];
 }
 
