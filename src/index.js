@@ -22,10 +22,10 @@ function start(client) {
 
 function getStage(user) {
     if (db[user]) {
-        //Se existir esse numero no banco de dados
+        //Se existir esse número no banco de dados.
         return db[user].stage;
     } else {
-        //Se for a primeira vez que entra e contato
+        //Se for a primeira vez que entra e contato.
         db[user] = {
             stage: 0,
             itens: [],
